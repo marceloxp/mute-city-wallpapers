@@ -18,16 +18,27 @@
 
 <body class="flex flex-col items-center justify-center min-h-screen">
     <!-- Header -->
-    <header class="text-center mb-8">
+    <header class="text-center mb-8 mt-6">
         <h1 class="text-4xl md:text-6xl">Mute City Wallpapers Collection</h1>
     </header>
 
     <!-- Gallery -->
-    <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full px-4">
+    <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-4">
         {{#each images}}
-        <a href="{{this}}" download class="hover:opacity-75 transition">
-            <img src="{{this}}" alt="{{this}}" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
+        {{#ifCond this.type "desktop"}}
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="{{this.src}}" alt="{{this.alt}}" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="{{this.src}}" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="{{this.mobileSrc}}" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        {{/ifCond}}
         {{/each}}
     </main>
 </body>

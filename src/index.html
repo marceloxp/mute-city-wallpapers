@@ -18,66 +18,120 @@
 
 <body class="flex flex-col items-center justify-center min-h-screen">
     <!-- Header -->
-    <header class="text-center mb-8">
+    <header class="text-center mb-8 mt-6">
         <h1 class="text-4xl md:text-6xl">Mute City Wallpapers Collection</h1>
     </header>
 
     <!-- Gallery -->
-    <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full px-4">
-        <a href="images/mute_city_001_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_001_desktop.jpg" alt="images/mute_city_001_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_001_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_001_mobile.jpg" alt="images/mute_city_001_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_002_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_002_desktop.jpg" alt="images/mute_city_002_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_002_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_002_mobile.jpg" alt="images/mute_city_002_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_003_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_003_desktop.jpg" alt="images/mute_city_003_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_003_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_003_mobile.jpg" alt="images/mute_city_003_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_004_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_004_desktop.jpg" alt="images/mute_city_004_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_004_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_004_mobile.jpg" alt="images/mute_city_004_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_005_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_005_desktop.jpg" alt="images/mute_city_005_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_005_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_005_mobile.jpg" alt="images/mute_city_005_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_006_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_006_desktop.jpg" alt="images/mute_city_006_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_006_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_006_mobile.jpg" alt="images/mute_city_006_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_007_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_007_desktop.jpg" alt="images/mute_city_007_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_007_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_007_mobile.jpg" alt="images/mute_city_007_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_008_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_008_desktop.jpg" alt="images/mute_city_008_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_008_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_008_mobile.jpg" alt="images/mute_city_008_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_009_desktop.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_009_desktop.jpg" alt="images/mute_city_009_desktop.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
-        <a href="images/mute_city_009_mobile.jpg" download class="hover:opacity-75 transition">
-            <img src="images/mute_city_009_mobile.jpg" alt="images/mute_city_009_mobile.jpg" class="w-full h-auto rounded-lg shadow-lg">
-        </a>
+    <main class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 w-full px-4">
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_001_desktop.jpg" alt="mute city_001_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_001_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_001_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_002_desktop.jpg" alt="mute city_002_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_002_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_002_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_003_desktop.jpg" alt="mute city_003_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_003_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_003_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_004_desktop.jpg" alt="mute city_004_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_004_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_004_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_005_desktop.jpg" alt="mute city_005_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_005_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_005_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_006_desktop.jpg" alt="mute city_006_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_006_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_006_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_007_desktop.jpg" alt="mute city_007_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_007_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_007_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_008_desktop.jpg" alt="mute city_008_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_008_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_008_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
+        <div class="flex flex-col items-center">
+            <!-- Desktop Image -->
+            <img src="images/mute_city_009_desktop.jpg" alt="mute city_009_desktop" class="w-full h-auto rounded-lg shadow-lg mb-4">
+
+            <!-- Buttons -->
+            <div class="flex gap-4">
+                <a href="images/mute_city_009_desktop.jpg" target="_blank"
+                    class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 transition">Desktop</a>
+                <a href="images/mute_city_009_mobile.jpg" target="_blank"
+                    class="px-4 py-2 bg-green-500 text-white rounded hover:bg-green-600 transition">Mobile</a>
+            </div>
+        </div>
     </main>
 </body>
 
