@@ -5,9 +5,9 @@ const path = require("path");
 (async () => {
     try {
         // Diretórios
-        const imagesDir = path.join(__dirname, "images");
-        const templateFile = path.join(__dirname, "templates", "index.hbs");
-        const outputFile = path.join(__dirname, "index.html");
+        const imagesDir = path.join(__dirname, "docs", "images"); // Alterado para docs/images
+        const templateFile = path.join(__dirname, "docs", "templates", "index.hbs"); // Alterado para docs/templates
+        const outputFile = path.join(__dirname, "docs", "index.html"); // Alterado para docs
 
         // Listar imagens no diretório
         const imageFiles = await fs.readdir(imagesDir);
