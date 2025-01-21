@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><XnView_script version="1.0" name="desktop">
+    <Resize mode="0" width="1280" height="720" unit="0" ratio="true" orientation="false" enlarge="0" resample="7" gamma_correct="false"/>
+    <Output folder="/home/marceloxp/git/mute-city-wallpapers/src/images/" filename="mute_city_###_desktop" case="0" startIndex="1" format="JPEG">
+        <Options overwrite="0" orgDate="true" keepMeta="true" keepICC="true" keepFolder="false" keepParentFolder="false" keepExtension="false" delOrg="false" multipage="false" allPages="false" openExplorer="false" beep="true" openBrowser="false" clearItems="false"/>
+        <JPEG quality="70" progressive="false" optimizeHuffman="false" rebuildThumb="true" orgQuality="false" DCTMethod="0" subSampling="0" smoothFactor="2"/>
+    </Output>
+</XnView_script>
